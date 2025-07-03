@@ -1328,9 +1328,10 @@ void shutdown(GLFWwindow* window) {
 ///////// Funkcja do przetwarzania wejścia /////////
 void processInput(GLFWwindow* window)
 {
+	/*
 	if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
 		glfwSetWindowShouldClose(window, true);
-
+	*/
 	if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS)
 		cameraAngleX += angleSpeed;
 	if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)
@@ -1438,7 +1439,7 @@ void renderLoop(GLFWwindow* window) {
 			if (ImGui::SliderInt("##cameraSpeed", &cameraSpeed, 10, 1000, nullptr)) {
 				angleSpeed = 0.01f * (cameraSpeed / 100.0f);
 				moveSpeed = 0.01f * (cameraSpeed / 100.0f);
-				rotationSpeed = 0.01f * (cameraSpeed / 100.0f);
+				rotationSpeed = 0.0002f * (cameraSpeed / 100.0f);
 			}
 
 			if (!overlay_icon)
