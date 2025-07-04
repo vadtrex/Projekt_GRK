@@ -4,7 +4,7 @@
 
 ## Opis projektu
 
-Aplikacja umożliwia interaktywną wizualizację globalnych wzorców wiatru na trójwymiarowym modelu kuli ziemskiej. Projekt prezentuje dane meteorologicznych w przystępny sposób, wykorzystując przy tym wiele technik grafiki komputerowej.
+Aplikacja umożliwia interaktywną wizualizację globalnych wzorców wiatru na trójwymiarowym modelu kuli ziemskiej. Projekt prezentuje dane meteorologiczne w przystępny sposób, wykorzystując przy tym wiele technik grafiki komputerowej.
 Aplikacja pozwala na odczyt kierunków i prędkości wiatrów na całym świecie na podstawie historycznych danych, korzystając z API NOMADS (https://nomads.ncep.noaa.gov/) dostarczonego przez National Oceanic and Atmospheric Administration.
 
 Dzięki prostemu interfejsowi wraz z samouczkiem oraz graficznym elementom, takim jak animowane linie wiatru oraz strzałki z dominującymi kierunkami wiatru, aplikacja pozwala w łatwy sposób analizować i interpretować zjawiska atmosferyczne.
