@@ -1,4 +1,4 @@
-# Projekt z Grafiki Komputerowej - Róża Wiatrów i Wzorce Wiatru
+# Wizualizacja Wiatrów Świata
 
 ![Nagranie ekranu z aplikacji](./nagranie_ekranu.gif)
 
